@@ -17,7 +17,7 @@ export const Home = () => {
                 </p>
 
                 <div>
-                <button className ="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-teal-500">
+                <button className ="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-teal-500 hover:scale-105 hover:bg-cyan-600 hover:from-teal-600 hover:to-cyan-600 transition-all duration-300">
                     Projects
                  <span className =" group-hover:rotate-90 duration-300">
                     <RiArrowRightSLine size ={25} className="ml-1" />
@@ -29,7 +29,7 @@ export const Home = () => {
           </div>
           <div>
             <img src = {HeroImage} alt = "profile" 
-            className= "rounded -2xl mx-auto  w-2/3 md:w-full"/>
+            className= "rounded -2xl mx-auto  w-2/3 md:w-full transition-transform duration-300 hover:scale-105"/>
           </div>
 
        </div>
