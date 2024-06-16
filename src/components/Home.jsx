@@ -11,8 +11,8 @@ const Home = () => {
           <h2 className="text-4xl sm:text-7xl font-bold text-white hover:animate-bounce transform hover:-translate-y-1">
             I'm an aspiring Full Stack Developer.
           </h2>
-          <p className="text-gray-500  text-2xl py-4 max-w-md">
-            I'm a Computer Science Student, with keen interest in Full Stack Development.
+          <p className="text-gray-500  text-2xl  italic py-4 max-w-md">
+            I'm a Computer Science student, with keen interest in Full Stack Development.
           </p>
           <div>
             <Link to="projects" smooth duration={500} className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-teal-500 hover:scale-105 hover:bg-cyan-600 hover:from-teal-600 hover:to-cyan-600 transition-all duration-300">
@@ -24,7 +24,7 @@ const Home = () => {
           </div>
         </div>
         <div>
-          <img src={HeroImage} alt="profile" className="rounded -2xl mx-auto w-2/3 md:w-full transition-transform duration-300 hover:scale-105" />
+          <img src={HeroImage} alt="profile" className="rounded -2xl mx-auto w-2/3 md:w-full transition-transform duration-300 hover:scale-105 " />
         </div>
       </div>
     </div>
