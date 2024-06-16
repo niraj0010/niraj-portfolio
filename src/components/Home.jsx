@@ -12,7 +12,7 @@ const Home = () => {
             I'm an aspiring Full Stack Developer.
           </h2>
           <p className="text-gray-500  text-2xl  italic py-4 max-w-md">
-            I'm a Computer Science student, with keen interest in Full Stack Development.
+            I'm a Computer Science student, with a keen interest in Full Stack Development.
           </p>
           <div>
             <Link to="projects" smooth duration={500} className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-teal-500 hover:scale-105 hover:bg-cyan-600 hover:from-teal-600 hover:to-cyan-600 transition-all duration-300">
