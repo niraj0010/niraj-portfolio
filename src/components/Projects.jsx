@@ -69,13 +69,13 @@ const Projects = () => {
                             <div className="flex items-center justify-center">
                                 <button
                                     onClick={() => handleButtonClick(demo)}
-                                    className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 shadow-md shadow-teal-800"
+                                    className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 hover:text-purple-600 shadow-md shadow-teal-800"
                                 >
                                     Demo
                                 </button>
                                 <button
                                     onClick={() => handleButtonClick(code)}
-                                    className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 shadow-md shadow-teal-800"
+                                    className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 hover:text-purple-600 shadow-md shadow-teal-800"
                                 >
                                     Code
                                 </button>
