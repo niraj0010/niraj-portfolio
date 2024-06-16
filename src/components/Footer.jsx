@@ -1,5 +1,6 @@
 import React from "react";
 import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
 
 const Footer = () => {
   const year = new Date().getFullYear();
@@ -17,11 +18,17 @@ const Footer = () => {
           <a href="https://www.instagram.com/_nrzz_11/" target="_blank" rel="noopener noreferrer">
             <FaInstagram size={30} className="text-gray-500 hover:text-teal-300 transition duration-200" />
           </a>
+          <a href="mailto:neerazbhatta1@gmail.com">
+            <HiOutlineMail size={30} className="text-gray-500 hover:text-teal-300 transition duration-200" />
+          </a>
         </div>
-        <div className="text-gray-500 flex items-center space-x-2">
-          <span>&copy;</span>
-          <span>{year}</span>
-          <span>Niraj Bhatta</span>
+        <div className="text-gray-500 flex flex-col items-center space-x-2">
+          <span className="italic mb-1">"I believe in consistency and discipline."</span>
+          <div className="flex items-center space-x-2">
+            <span>&copy;</span>
+            <span>{year}</span>
+            <span>Niraj Bhatta</span>
+          </div>
         </div>
       </div>
     </div>

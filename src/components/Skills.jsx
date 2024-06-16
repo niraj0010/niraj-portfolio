@@ -11,6 +11,7 @@ import Tailwind from "../assets/tailwind.png";
 import github from "../assets/github.png";
 import TypeScript from "../assets/Typesript.jpg";
 import MySQL from "../assets/Mysql.jpg";
+import Firebase from "../assets/Firebase.jpg";
 const Skills = () => {
     const tex = [
         {
@@ -87,6 +88,12 @@ const Skills = () => {
             Title: "MySQL",
             style: "shadow-yellow-100",
         },
+        {
+            id: 13,
+            src: Firebase,
+            Title: "Firebase",
+            style: "shadow-yellow-300",
+        },
     ];
 
     return (
@@ -94,7 +101,7 @@ const Skills = () => {
             <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
                 <div>
                     <p className="text-4xl font-bold border-b-4 border-teal-500 p-2 inline">Skills</p>
-                    <p className="py-6 text-2xl font-bold">These are the technologies that I have worked with</p>
+                    <p className="py-6 text-2xl font-bold">These are the technologies that I have worked with :</p>
                 </div>
                 <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
                     {tex.map(({ id, src, Title, style }) => (
