@@ -10,6 +10,7 @@ const Projects = () => {
     {
       id: 1,
       src: seluThrift,
+      title: "SELU Thrift Store",
       description:
         "A fully functional e-commerce site developed for SELU Thrift Store to enable users to easily buy and sell products .",
       code: "https://github.com/niraj0010/CMPS_285_SELU_ThriftStore",
@@ -17,6 +18,7 @@ const Projects = () => {
     },
     {
       id: 2,
+      title: "Automated Cat Feeder",
       src: catFeeder,
       description:
         "We developed an automated cat feeder system using IoT technology, utilizing Raspberry Pi.",
@@ -25,6 +27,7 @@ const Projects = () => {
     },
     {
       id: 3,
+      title: "E-Library Platform",
       src: eLibrary,
       description:
         "An e-library platform tailored for professors to efficiently manage articles and resources.",
@@ -33,6 +36,7 @@ const Projects = () => {
     },
     {
       id: 4,
+      title: "SELU NSAS Website",
       src: seluNsas,
       description:
         "Developed a website for the Nepalese Student Association at Southeastern to showcase Nepalese culture, important informations and related content.",
@@ -41,6 +45,7 @@ const Projects = () => {
     },
     {
       id: 5,
+      title: "Dipika's Artistry",
       src: dipika,
       description:
         "Developed Dipika's artistry website to showcase her art and talent.",
@@ -66,7 +71,7 @@ const Projects = () => {
           <p className="py-6 text-2xl italic">My works:</p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-9 px-12 sm:px-0">
-          {projects.map(({ id, src, description, code, demo }) => (
+          {projects.map(({ id,title, src, description, code, demo }) => (
             <div
               key={id}
               className="shadow-md shadow-gray-600 rounded-lg overflow-hidden transform transition duration-200 hover:scale-105 hover:shadow-teal-800"
@@ -76,6 +81,10 @@ const Projects = () => {
                 alt=""
                 className="rounded-t-lg w-full h-48 object-cover"
               />
+              <div className="text-center mt-4">
+                <h3 className="text-xl font-bold">{title}</h3>
+              </div>
+                
               <div className="text-center mb-4 px-4 pt-2">
                 <p>{description}</p>
               </div>
