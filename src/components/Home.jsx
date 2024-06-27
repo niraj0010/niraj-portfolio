@@ -4,7 +4,7 @@ import { RiArrowRightSLine } from "react-icons/ri";
 import { Link } from "react-scroll";
 import { motion } from "framer-motion";
 import Typical from 'react-typical';
-import { PiHandsPrayingFill } from 'react-icons/pi'; // Import the PiHandsPrayingFill icon
+import { PiHandsPrayingFill } from 'react-icons/pi'; 
 
 const Home = () => {
   return (
