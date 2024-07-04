@@ -12,6 +12,9 @@ import github from "../assets/github.png";
 import TypeScript from "../assets/Typesript.jpg";
 import MySQL from "../assets/Mysql.jpg";
 import Firebase from "../assets/Firebase.jpg";
+import MongoDB from "../assets/MongoDB.jpg";
+import Express from "../assets/Express JS.png";
+import Node from "../assets/Node JS.jpg";
 const Skills = () => {
   const projectcards = [
     {
@@ -91,6 +94,24 @@ const Skills = () => {
       src: Firebase,
       Title: "Firebase",
       style: "shadow-yellow-300",
+    },
+    {
+      id: 14,
+      src: MongoDB,
+      Title: "MongoDB",
+      style: "shadow-green-300",
+    },
+    {
+      id: 15,
+      src: Express,
+      Title: "Express JS",
+      style: "shadow-yellow-300",
+    },
+    {
+      id: 16,
+      src: Node,
+      Title: "Node JS",
+      style: "shadow-green-300",
     },
   ];
 
